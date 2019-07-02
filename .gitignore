@@ -4,4 +4,6 @@ npm-debug.log
 .idea/
 cypress/screenshots
 test-results/
+.DS_Store
+cypress/.DS_Store
 
