@@ -1,0 +1,14 @@
+version: '3'
+services:
+  testbed:
+    build:
+        context: .
+        dockerfile: Dockerfile
+    image: cucumber-cypress-image:0.0.1
+    container_name: cucumber-cypress-container
+    restart: "no"
+    volumes:
+      - .:/home/node/app
+    tty: true
+    command: bash -x ./docker_run.sh
+    

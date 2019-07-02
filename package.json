@@ -16,7 +16,7 @@
     "test:pull-features": "git submodule update --remote gherkin-features && cp -rf gherkin-features/* cypress/integration && node ./scripts/remove-old-features.js"
   },
   "author": "",
-  "license": "Private",
+  "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
     "cypress": "^3.1.5",
