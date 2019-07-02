@@ -2,9 +2,9 @@ import GoogleResultsPage from './google-results-page';
 
 const SEARCH_FIELD = 'input[type=text]';
 const SEARCH_BUTTON = 'input[type=submit]';
-const SEARCH_TEXT = 'Buscar';
+const SEARCH_TEXT = 'Google Search';
 const FEEL_LUCKY_BUTTON = 'input[type=submit]';
-const FEEL_LUCKY_TEXT = 'suerte';
+const FEEL_LUCKY_TEXT = 'I\'m Feeling Lucky';
 
 class GoogleSearchPage {
   static visit() {
