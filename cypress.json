@@ -5,5 +5,7 @@
   "reporterOptions": {
     "mochaFile": "test-results/test-output-[hash].xml"
   },
-  "chromeWebSecurity": false
+  "chromeWebSecurity": false,
+  "videosFolder": "test-results/videos",
+  "screenshotsFolder": "test-results/screenshots"
 }
