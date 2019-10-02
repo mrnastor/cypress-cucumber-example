@@ -9,7 +9,7 @@
     "cypress:open": "cypress open",
     "test:local": "CYPRESS_ENV=localhost npm run test",
     "test:prod": "CYPRESS_ENV=production npm run test",
-    "test": "cypress run --env TAGS='@e2e-test' --spec 'cypress/integration/**/*.feature'",
+    "test": "cypress run --browser chrome --env TAGS='@e2e-test' --spec 'cypress/integration/**/*.feature'",
     "test:debug:local": "CYPRESS_ENV=localhost npm run test:debug",
     "test:debug:prod": "CYPRESS_ENV=production npm run test:debug",
     "test:debug": "cypress run --headed --browser chrome --env TAGS='@e2e-test' --spec 'cypress/integration/**/*.feature'",
