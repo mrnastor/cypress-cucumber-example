@@ -9,3 +9,7 @@ When(/^Press 'Search'$/, () => {
 Then(/^I have some results$/, () => {
   GoogleResultsPage.expect().toHaveResults();
 });
+
+Then(/^I would have some results with '(.*)'$/, (keywords) => {
+  GoogleResultsPage.expect().toHaveKeyResults(keywords);
+});

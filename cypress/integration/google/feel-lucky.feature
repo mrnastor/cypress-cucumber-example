@@ -1,5 +1,5 @@
 Feature: Feel Lucky
-  @e2e-test
+  @e2e-test_ignore
   Scenario: Feel Lucky
     Given I'm at Google
     When I type search word 'github'

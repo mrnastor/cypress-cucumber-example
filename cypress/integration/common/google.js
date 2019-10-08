@@ -5,7 +5,7 @@ Given(/^I'm at Google$/, () => {
   GoogleSearchPage.visit();
 });
 
-When(/^I type search word 'github'$/, () => {
-  GoogleSearchPage.type('github');
+When(/^I type search word '(.*)'$/, (key) => {
+  GoogleSearchPage.type(key);
 });
 

@@ -8,6 +8,12 @@ class GoogleResultsPage {
           expect(length).to.be.greaterThan(5);
         });
       },
+
+      toHaveKeyResults: (key) => {
+        cy.get(RESULT_LINK).first().invoke('text').then((val) => {
+          expect(val).to.include(key);
+        });
+      },
     };
   }
 }
